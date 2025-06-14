@@ -1,0 +1,6 @@
+@PIII_TrabajoFinal_BilleteraVirtual_HostAddress = http://localhost:5017
+
+GET {{PIII_TrabajoFinal_BilleteraVirtual_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

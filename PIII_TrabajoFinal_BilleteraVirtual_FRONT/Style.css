@@ -1,0 +1,18 @@
+body{
+    background-color: #213331;
+}
+.CentroUsuario{
+    background-color: #d9d9d9;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-color: #6d9d7f;
+    border-width: 18px;
+    margin-right: 1000px;
+    margin-left: 50px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
