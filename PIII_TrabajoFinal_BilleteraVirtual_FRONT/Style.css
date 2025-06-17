@@ -1,18 +1,217 @@
 body{
     background-color: #213331;
+    background-image: url(img/Fondo2.jpg);
+    position: absolute;
+    height: 100%;
+    		width: 100%;
+    		background-repeat: repeat;
+    		background-position: 0 0;
+    		
+
 }
-.CentroUsuario{
-    background-color: #d9d9d9;
-    border-right-style: solid;
-    border-left-style: solid;
-    border-color: #6d9d7f;
-    border-width: 18px;
-    margin-right: 1000px;
-    margin-left: 50px;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
+
+    header {
+      background: linear-gradient(to right, #132623, #228b22);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      font-size: 145%;
+    }
+
+    .logo {
+      width: 50px;
+      height: 50px;
+      background-color: #333;
+      border-radius: 50%;
+    }
+
+    .menu {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    .menu span {
+      margin: 0 10px;
+    }
+
+    .highlight-box {
+      background: linear-gradient(to right, #228b22, #c0ffd5);
+      padding: 1px;
+      margin-top: 0.3cm;
+      width: fit-content;
+      font-size: 2.5rem;
+      font-weight: bold;
+      border-radius: 15px;
+      box-shadow: 5px 5px 0 #132623;
+      margin-bottom: 0.8cm;
+    }
+
+    .Saldo-box {
+      background: linear-gradient(to right, #228b22, #c0ffd5);
+      padding: 1px;
+      
+      width: fit-content;
+     
+      font-size: 2.5rem;
+      font-weight: bold;
+      border-radius: 15px;
+      box-shadow: 5px 5px 0 #132623;
+    }
+
+    h1 {
+      text-align:left;
+      font-size: 3rem;
+      color: black;
+      text-shadow: 2px 2px 0 #00ff00;
+      
+    }
+
     
+    .tabla1{    
+      margin-left: 4cm;
+      margin-right: auto;
+      margin-top: 1cm;
+    }
+
+
+.tabla {
+  background-color: #132623;
+  width:unset;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 10px 30px;
 }
+
+.fila {
+  display: flex;
+  align-items: center;         /* Centra verticalmente */
+  justify-content: space-between; /* Espacia horizontalmente */
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.fila > div, .fila > button {
+  flex: 1;                     /* Todas las celdas ocupan mismo ancho */
+  text-align:center;         /* Centra horizontalmente el contenido */
+}
+
+.cripto {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.cripto img {
+  vertical-align: middle;
+}
+
+.cambio {
+  color: red;
+  font-weight: bold;
+}
+
+.comprar {
+  background-color: green;
+  color: white;
+  border: 2px solid black;
+  padding: 5px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+
+    .formulario {
+      width: 400px;
+      background-color: #132623;
+      padding: 20px;
+      border-radius: 20px;
+      margin: 30px auto;
+      color: white;
+    }
+
+    .formulario label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+
+    .formulario select,
+    .formulario input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      border-radius: 20px;
+      border: none;
+      font-size: 1rem;
+      color: black;
+    }
+
+    .resumen {
+      background: linear-gradient(to right, #00c500, #a6ffb6);
+      width: 400px;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 15px;
+      font-size: 1.1rem;
+    }
+
+    .resumen h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .resumen .linea {
+      border-bottom: 3px dashed black;
+      margin: 10px 0;
+    }
+
+    .resumen .grande {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .Historialbody{
+      background-color: #132623;
+      width: 80%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      border-radius: 10px;
+      padding: 10px 30px;
+      margin-left:auto;;
+      margin-right: auto;
+      margin-top: 1cm;
+    }
+
+    .selecthistorial select {
+      width: 400px;
+      padding: 10px;
+      border-radius: 15px;
+      border: none;
+      font-size: 1rem;
+      color: black;
+    }
+    
+    .Historialmovimientos {
+      background:linear-gradient(to right, #00c500, #a6ffb6) ;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 10px 30px;
+      
+    }
+
+    .historialtitulo{
+      text-align:center;
+      font-size: 300%;
+      color: rgb(0, 0, 0);
+      text-shadow: 2px 2px 0 #00ff00;
+      border-radius: 10px;
+    }
