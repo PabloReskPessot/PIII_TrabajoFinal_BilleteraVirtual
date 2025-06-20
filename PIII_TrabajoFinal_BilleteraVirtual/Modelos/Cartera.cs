@@ -7,7 +7,7 @@ namespace PIII_TrabajoFinal_BilleteraVirtual.Modelos
         public int id { get; set; }
         public int usuarioid { get; set; }
         public int monedaid { get; set; }
-        public decimal resumensaldo { get; set; } // esto es el numero guardado de la suma y resta de las transacciones
+        public decimal resumensaldo { get; set; } 
 
         public Usuario? Usuario { get; set; }
         public Moneda? Moneda { get; set; }

@@ -13,6 +13,8 @@
         public DbSet<Cartera> Cartera { get; set; }
         public DbSet<Transaccion> Transacciones { get; set; }
 
+
+
         // no funciono asi que elimino la fk usuario2 y listo 
 
         //// esta parte la agrego enteramente el chat para evitar el comportamiento cascada entre usuario y usuario2 en transacciones

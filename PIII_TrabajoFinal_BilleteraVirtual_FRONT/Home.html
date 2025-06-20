@@ -15,13 +15,19 @@
         <script>header ()</script>
     
 <div class="tabla1">
-<div class="Saldo-box">
-   Saldo 
-</div>
+<div class="centrousuario">
+  <div class="selectcuenta">
+            <select id="cuenta">
+                <option>ingrese cuenta</option>
+                <option>Cuenta Dólares</option>
+                <option>Caja Pesos</option>
+            </select>
+  </div>
 
   <div class="highlight-box">
     $ 100.000.000.000
   </div>
+</div>
 
     <h1>
         CRIPTO BROSS
@@ -29,27 +35,31 @@
 
 <div class="tabla">
     <div class="fila">
-      <div class="cripto"><img src="/img/BTClogo.png" width="50" height="50"> Bitcoin BTC</div>
-      <div>$0.00</div>
-      <div>0.00</div>
+      <div class="criptoicon"><img src="img/BTClogo.png"></div>
+      <div>Bitcoin</div>
+      <div id="btccompra"></div>
+      <div id="btcventa"></div>
       <div class="cambio">▼ 1.27%</div>
       <button class="comprar" onclick= "IrAVista('Compra.html')">Comprar</button>
     </div>
     <div class="fila">
-      <div class="cripto"><img src="/img/ETHlogo.png" width="50" height="50"> Ethereum ETH</div>
-      <div>$0.00</div>
-      <div>$0.00</div>
+      <div class="criptoicon"><img src="img/ETHlogo.png"></div>
+      <div>Ethereum</div>
+      <div id="ethcompra"></div>
+      <div id="ethventa"></div>
       <div class="cambio">▼ 4.96%</div>
       <button class="comprar" onclick= "IrAVista('Compra.html')">Comprar</button>
     </div>
     <div class="fila">
-      <div class="cripto"><img src="/img/USDTlogo.png" width="50" height="50">USDT</div>
-      <div>$1.184,65</div>
-      <div>$1.204,10</div>
+      <div class="criptoicon"><img src="img/USDTlogo.png"></div>
+      <div>USDT</div>
+      <div id="usdtcompra"></div>
+      <div id="usdtventa"></div>
       <div class="cambio">▼ 0.50%</div>
       <button class="comprar" onclick= "IrAVista('Compra.html')">Comprar</button>
     </div>
 </div>
+
 
 
 </body>

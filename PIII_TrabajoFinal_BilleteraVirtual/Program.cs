@@ -34,8 +34,8 @@ namespace PIII_TrabajoFinal_BilleteraVirtual
 
             app.UseCors("PermitirTodo");
 
-            WebAPIcontrollers conn = new WebAPIcontrollers();
-            conn.Get();
+            //WebAPIcontrollers conn = new WebAPIcontrollers();
+            //conn.Get();
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
