@@ -1,6 +1,7 @@
 ﻿namespace PIII_TrabajoFinal_BilleteraVirtual.Data
 {
     using Microsoft.EntityFrameworkCore;
+    using PIII_TrabajoFinal_BilleteraVirtual.Controllers;
     using PIII_TrabajoFinal_BilleteraVirtual.Modelos;
     using System;
 
@@ -11,8 +12,7 @@
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Moneda> Moneda { get; set; }
         public DbSet<Cartera> Cartera { get; set; }
-        public DbSet<Transaccion> Transacciones { get; set; }
-
+        public DbSet<Transaccion> Transaccion { get; set; }
 
 
         // no funciono asi que elimino la fk usuario2 y listo 
